@@ -1,0 +1,6 @@
+In order to upload Ortensia in git repository, you need to replace a json formatted GCP service account key outside of root directory for security.
+Also, if you have changed your service key location, some of your python code need to be fixed such as 
+./tools/gcs.py line-14.
+./trade/setup.py line-54
+If you are using new GCP account, you need to issue the key first.
+READ: https://cloud.google.com/docs/authentication/production?hl=ja

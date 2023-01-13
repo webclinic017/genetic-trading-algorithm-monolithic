@@ -1,0 +1,67 @@
+Trading System Developing History
+_______________________________________________________________
+
+[Jan. 2022 - Jun. 2022. For 6 months]
+----- Technical Analysis -----
+I created a bunch of pine-script indicators, backtest strategies, heat maps & etc. at TradingView.
+I mastered the basics of technical analysis technics and backtesting skills.
+https://github.com/v3vapp/PineScript_Archive
+
+[Jun. 2022] 
+----- Python/JavaScript/Selenium/etc. -----
+To attempt a large amount of backtests, I build a TradingView_AutoBacktester with python.
+https://github.com/v3vapp/TradingView_AutoBacktester
+
+[Jul. 2022] 
+----- 
+In order to collect and analyze backtest results, I learned pandas and NumPy.
+I added calculation functions that return earning ratio, expected value, risk ratio and so on.
+
+
+waiting for a new line...
+
+
+#===============================================================================================================
+JAPANESE EDITION
+#===============================================================================================================
+
+開発履歴
+
+２０２２年１月
+TradingViewにて利用できるPineScriptというスクリプト言語を独学で習得。大量のインジケーターとバックテストストラテジーを作成。これにより、テクニカルアナリシスや取引の検証が可能になった。
+
+同年６月
+TradingViewのウェブサイトを自動で操作し、バックテストを自動化したいと思いPythonとJavaScriptを独学。
+PythonのSeleniumというモジュールを使い、バックテストの自動化を行う。
+
+同年７月
+バックテストで得た結果を、集計や分析したいと思い、PythonモジュールのPandasを独学で習得。これにより、収益率や期待値、リスクなどが把握できるようになった。
+
+同年８月
+TradingViewアカウントを利用停止されてしまった。原因はリソースの使い過ぎとのこと。すぐに解除してもらえたが、作業効率が頭打ちになるので、スクラッチでバックテストシステムを構築することを決意。Pythonを本格的に学び始めた。
+
+同年９月
+API接続やストリームデータの取得方法を習得。BinanceAPIを活用し、ヒストリカルデータやストリームを取得し、バックテスト作業を再開。
+また、複数のテストを同時進行する為、バックテストをマルチプロセス化。これにより何倍もの速度でバックテストが可能になった。
+
+更なる高速化のため、クラウドサービスについて学習し、GCPやAWSにインスタンスを立ち上げ、数十個のCPUでシステムの稼働を開始した。
+これにより、膨大な数のバックテストをかなり高速に成し遂げることが可能になった。
+
+更には、Pythonを用いてVMの稼働や停止を行なったり、バックテスト結果をクラウドストレージやクラウドモニタリングなどのサービスを使えるようになった。
+
+更にこの時期、データベースを扱えるようになった。SQLも習得した。さらに同時にFirebaseやsupabaseを学んだが、GCSで事足りるため、使いどころがなかった。
+
+更ににMatplotlibやChartJSを用いたチャートの使い方も習得し、データの可視化を行えるようになった。
+
+同年１０月
+Pythonにて発注システムの開発を行った。魔改造RSIやMACD等の取引戦略に基づいたテスト結果に沿った発注を行ことを目的とした。さらには、板状況や約定状況によって、発注方法を調節し、なるべく優位な状況で発注が可能になった。
+
+バックテストシステムや発注システムをDockerを用いてコンテナ化し、GCPのArtifact Registry等を活用し、適切なVMへのデプロイを効率化した。Kubernetesについても学習したが、使いどころがなかった。
+
+他にも、新しいポジションや保有中ポジションや資産状況、リスク状態等を適時Discordへ送信する監視システムを作成し、モニタリング機能を強化した。
+
+同年１１月
+遺伝的アルゴリズムのようなバックテスト手法を閃き、その開発を行った。遺伝的バックテストの結果、長期的な未来予測は想像以上に難しいことが発覚した。バックテスト手法と取引戦略に更なる工夫と発想が必要だと感じるようになった。
+
+同年１２月
+トレーディング／バックテスト／ポジション管理／資金管理の稼働状況／取引緊急停止など、さまざまな機能を備えたユーザーインターフェイスの作成を行うこととした。そのため、React／Next.js／TypeScriptについて学習を開始した。デザイン等はFigmaを用いて制作することにした。

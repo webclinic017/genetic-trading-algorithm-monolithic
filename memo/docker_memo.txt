@@ -1,0 +1,6 @@
+docker build -t image_name .
+docker run v3valgo:latest
+docker ps -a
+docker container ls
+docker run -it image_name:latest
+
